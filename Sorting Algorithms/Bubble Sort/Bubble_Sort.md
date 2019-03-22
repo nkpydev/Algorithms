@@ -15,5 +15,7 @@
 - (26,54,17,77,**93**,**31**,44,55,20) --> (26,54,17,77,**31**,**93**,44,55,20) # Exchanged 31,93
 - (26,54,17,77,31,**93**,**44**,55,20) --> (26,54,17,77,31,**44**,**93**,55,20) # Exchanged 44,93
 - (26,54,17,77,31,44,**93**,**55**,20) --> (26,54,17,77,31,44,**55**,**93**,20) # Exchanged 55,93
-- (26,54,17,77,31,44,55,**93**,**20**) --> (26,54,17,77,31,44,55,**20**,**93**) # Exchanged 20,93 - Note 93 the largest of them all, comes to its                                                                                                       final position after 1st pass
-Subsequently after all passes [8], we will get all the numbers at their proper sorted places.
+- (26,54,17,77,31,44,55,**93**,**20**) --> (26,54,17,77,31,44,55,**20**,**93**) # Exchanged 20,93
+
+>Note 93 the largest of them all, comes to its final position after 1st pass
+>Subsequently after all passes [8], we will get all the numbers at their proper sorted places.
