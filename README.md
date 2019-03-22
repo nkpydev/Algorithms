@@ -10,6 +10,14 @@ __Wikipedia__:  In mathematics and computer science, an algorithm is an unambigu
                 data processing, automated reasoning, and other tasks.
 
 ### Types of Algorithms ###
-1. Sort --> **Bubble**|**Bucket**|**Insertion**|**Merge**|**Quick**|**Heap**|**Radix**|**Selection**
+1. Sort --> 
+    1. **Bubble**
+    2. **Bucket**
+    3. **Insertion**
+    4. **Merge**
+    5. **Quick**
+    6. **Heap**
+    7. **Radix**
+    8. **Selection**
 2. Search
 3. Ciphers
