@@ -9,9 +9,9 @@
 
 def sort_bubble(user_input):
     l = len(user_input)
-    for i in range(l):
+    for i in range(l-1,0,-1):
         swapped = False
-        for j in range(0,l-i-1):
+        for j in range(i):
             if user_input[j] > user_input[j+1]: 
                 user_input[j],user_input[j+1] = user_input[j+1],user_input[j]
                 swapped = True
