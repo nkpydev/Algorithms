@@ -13,7 +13,8 @@ __Wikipedia__:  In mathematics and computer science, an algorithm is an unambigu
 
 ### Types of Algorithms ###
 1. __**Sort**__ --> 
-    1. <a href="https://github.com/nkpydev/Algorithms/tree/master/Bubble%20Sort">**Bubble**</a>
-    2. <a href="https://github.com/nkpydev/Algorithms/tree/master/Selection%20Sort">**Selection**</a>
+    1. <a href="https://github.com/nkpydev/Algorithms/tree/master/Bubble%20Sort">**Bubble Sort**</a>
+    2. <a href="https://github.com/nkpydev/Algorithms/tree/master/Selection%20Sort">**Selection Sort**</a>
+    3. Insertion Sort
 2. Search
 3. Ciphers
