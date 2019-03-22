@@ -2,9 +2,7 @@
 #!  Python3
 #   Author          :   NK
 #   Desc            :   Basic Bubble Sort Implementation
-#   Info            :   Optimized, so as to stop the internal for loop to break,
-#                       if the numbers are not to be swapped, this will decrease
-#                       the time complexity
+#   Info            :   Optimized version to check if swap not required.
 #-------------------------------------------------------------------------#
 
 def sort_bubble(user_input):

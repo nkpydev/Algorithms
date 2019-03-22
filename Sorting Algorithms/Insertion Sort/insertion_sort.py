@@ -1,3 +1,11 @@
+#-------------------------------------------------------------------------#
+#!  Python3
+#   Author          :   NK
+#   Desc            :   Insertion Sort Implementation
+#   Info            :   Creating a sublist of smaller numbers on the start
+#                       and Inserting each new accordingly,
+#                       so named Insertion Sort.
+#-------------------------------------------------------------------------#
 
 def sort_insertion(user_input):
     l = len(user_input)

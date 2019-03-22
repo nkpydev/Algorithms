@@ -2,7 +2,7 @@
 #!  Python3
 #   Author          :   NK
 #   Desc            :   Basic Bubble Sort Implementation
-#   Info            :   Not efficient enough, as both the for loops will run even if the user_input is almost sorted
+#   Info            :   Compare two adjacent values and swap them if not in order.
 #-------------------------------------------------------------------------#
 
 def sort_bubble(user_input):
