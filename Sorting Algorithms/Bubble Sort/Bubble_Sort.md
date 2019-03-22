@@ -1,26 +1,19 @@
 # Bubble Sort Info
 
 **Bubble Sort**
-> Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+> Bubble Sort is the simplest sorting algorithm.
+> This sort makes multiple passes through the list.
+> It will compare adjacent items and exchange them if they are out of order.
+> It takes __n-1__ passes to sort n __numbers__.
 
 ### Example:
 
-**First Pass:**
-- ( **5** **1** 4 2 8 ) –> ( **1** **5** 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1.
-- ( 1 **5** **4** 2 8 ) –>  ( 1 **4** **5** 2 8 ), Swap since 5 > 4
-- ( 1 4 **5** **2** 8 ) –>  ( 1 4 **2** **5** 8 ), Swap since 5 > 2
-- ( 1 4 2 5 8 ) –> ( 1 4 2 5 8 ), Now, since these elements are already in order (8 > 5), algorithm does not swap them.
-
-**Second Pass:**
-- ( 1 4 2 5 8 ) –> ( 1 4 2 5 8 )
-- ( 1 **4** **2** 5 8 ) –> ( 1 **2** **4** 5 8 ), Swap since 4 > 2
-- ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
-- ( 1 2 4 5 8 ) –>  ( 1 2 4 5 8 )
-
-Now, the array is already sorted, but our algorithm does not know if it is completed. The algorithm needs one whole pass without any swap to know it is sorted.
-
-**Third Pass:**
-- ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
-- ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
-- ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
-- ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
+- (**54**,**26**,93,17,77,31,44,55,20) --> (26,54,93,17,77,31,44,55,20) # Exchanged 26,54
+- (26,**54**,**93**,17,77,31,44,55,20) --> (26,54,93,17,77,31,44,55,20) # No Exchange required
+- (26,54,**93**,**17**,77,31,44,55,20) --> (26,54,**17**,**93**,77,31,44,55,20)  #Exchanged 17,93
+- (26,54,17,**93**,**77**,31,44,55,20) --> (26,54,17,**77**,**93**,31,44,55,20) # Exchanaged 77,93
+- (26,54,17,77,**93**,**31**,44,55,20) --> (26,54,17,77,**31**,**93**,44,55,20) # Exchanged 31,93
+- (26,54,17,77,31,**93**,**44**,55,20) --> (26,54,17,77,31,**44**,**93**,55,20) # Exchanged 44,93
+- (26,54,17,77,31,44,**93**,**55**,20) --> (26,54,17,77,31,44,**55**,**93**,20) # Exchanged 55,93
+- (26,54,17,77,31,44,55,**93**,**20**) --> (26,54,17,77,31,44,55,**20**,**93**) # Exchanged 20,93 - Note 93 the largest of them all, comes to its                                                                                                       final position after 1st pass
+Subsequently after all passes [8], we will get all the numbers at their proper sorted places.
